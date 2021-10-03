@@ -1,0 +1,165 @@
+section {
+	color: black;
+	/*background-color: rgb(47,79,79);*/
+}
+
+
+
+
+.contactUs {
+	background: url(bg1.jpg) transparent;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+	font-size: 40px;
+	width: 100%;
+	height:450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0;
+}
+.stylecontact {
+	background: black;
+	background: rgba(0, 0, 0, .562);
+	width: 100%;
+	text-align: center;
+
+	
+}
+.stylecontact h1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	color: white;
+	font-size: 100px;
+}
+
+.email-call {
+	margin-top: 0;
+	width: auto;
+	height: 150px;
+	display: flex;
+	line-height: 2px;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	background: rgba(127,127,182,0.534);
+}
+
+.email {
+	font-size: 20px;
+	width: 50%;
+}
+
+.call{
+	font-size: 20px;
+	width: 50%;
+}
+
+.fa.fa-at{
+	font-size: 40px;
+	/*font-weight: bold;*/
+	color: black;
+}
+
+.fa.fa-phone-square{
+	font-size: 40px;
+	/*font-weight: bold;*/
+	color: black;
+}
+
+.footer {
+
+	border: 1px solid white; 
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 150px;
+	align-content: center;
+	background: rgba(127,127,182,0.534);
+}
+
+.contactInfo {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*align-content: center;*/
+	/*text-align: center;*/
+	/*flex-direction: column;*/
+	width: 50%;
+	font-size: 25px ;
+	
+}
+
+.contactt{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	
+	text-align: center;
+
+}
+
+
+
+li {
+	font-size: 22px;
+	list-style: none;
+	text-align: left;
+}
+
+.followUs {
+	display: flex;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	width: 50%;
+	font-size: 25px;
+}
+
+.icons {
+	display: flex;
+	padding: 0px;
+	color: white;
+
+	
+}
+
+.icon{
+	border: solid black;
+	margin-right: 7px;
+	padding: 15px;
+	width: 20px;
+	height: 20px;
+	color: black;
+}
+
+a {
+	color: black ;
+	text-decoration: none;
+
+}
+
+.bottom {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+	background: rgba(127,127,182,0.534);
+}
+.bottom p{
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .stylecontact {
+    background:red !important;
+
+  }
+}
